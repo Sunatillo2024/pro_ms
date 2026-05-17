@@ -1,0 +1,33 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tizimga kirish</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-logo">
+                <h2>📄 Hujjat Tizimi</h2>
+                <p>Kafedra normativ hujjatlari</p>
+            </div>
+            <div id="alert" class="alert hidden"></div>
+            <div class="form-group">
+                <label>Foydalanuvchi nomi</label>
+                <input type="text" id="username" placeholder="username" />
+            </div>
+            <div class="form-group">
+                <label>Parol</label>
+                <input type="password" id="password" placeholder="••••••••" />
+            </div>
+            <button class="btn btn-primary" onclick="login()">
+                Kirish
+            </button>
+        </div>
+    </div>
+    <script src="js/auth.js"></script>
+</body>
+</html>

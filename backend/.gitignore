@@ -1,0 +1,82 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ========================
+# Virtual Environment
+# ========================
+.venv/
+venv/
+env/
+ENV/
+
+# ========================
+# Django
+# ========================
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (faqat reset uchun, odatda commit qilinadi)
+# migrations/__pycache__/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Django Secret / config leaks
+# ========================
+*.pem
+*.key
+
+# ========================
+# Node (agar frontend bo‘lsa)
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Coverage / tests
+# ========================
+htmlcov/
+.coverage
+.pytest_cache/
+
+# ========================
+# MyPy / typing
+# ========================
+.mypy_cache/
+.dmypy.json
+
+# ========================
+# Docker (agar ishlatsangiz)
+# ========================
+docker-compose.override.yml
